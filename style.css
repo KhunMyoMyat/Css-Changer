@@ -48,6 +48,7 @@ h1 {
   font-weight: 800;
 }
 
+/* css-change-controller style*/
 .css-change-controller {
   display: flex;
   flex-direction: column;
@@ -58,10 +59,12 @@ h1 {
 label {
   padding-left: 1rem;
   font-size: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
+  margin-top: 0.5rem;
   color: #fff;
 }
 
+/* base-color's input style */
 .css-change-controller input[type="color"] {
   width: 30px;
   height: 30px;
@@ -83,10 +86,17 @@ label {
   padding: 0;
 }
 
+/* sliders input style */
+.css-change-controller input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 0.3rem;
+}
+
 img {
   width: var(--width);
   height: 70%;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   background-color: var(--base-color);
   padding: var(--padding);
   filter: blur(var(--blur));
