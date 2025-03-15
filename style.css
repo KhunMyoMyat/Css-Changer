@@ -1,0 +1,26 @@
+/* global starts */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+:root {
+  --padding: 20px;
+  --blur: 0px;
+  --width: 50%;
+  --base-color: #780e54;
+  --border-radius: 15px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #fff;
+}
+/* global ends */
