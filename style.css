@@ -11,7 +11,7 @@
   --padding: 20px;
   --blur: 0px;
   --width: 50%;
-  --base-color: #780e54;
+  --base-color: #00dbcc;
   --border-radius: 15px;
 }
 
@@ -24,3 +24,30 @@ body {
   background-color: #fff;
 }
 /* global ends */
+
+/* container */
+.container {
+  padding: 3rem;
+  background: linear-gradient(to right, #f12711, #f5af19);
+  box-shadow: 8px 8px 10px rgb(59, 4, 72, 0.2),
+    -10px -10px 30px rgb(255, 255, 255, 0.5);
+  border-radius: 1.5rem;
+}
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--base-color);
+  font-weight: 800;
+}
+img {
+  width: 300px;
+  height: 280px;
+  object-fit: cover;
+  object-position: top;
+}
